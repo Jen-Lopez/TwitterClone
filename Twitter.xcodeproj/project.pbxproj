@@ -12,6 +12,7 @@
 		5DE2769E25314C5100C053E8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2769D25314C5100C053E8 /* LoginVC.swift */; };
 		5DE276A025315AC200C053E8 /* HomeTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE2769F25315AC200C053E8 /* HomeTV.swift */; };
 		5DE276A225316AF700C053E8 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE276A125316AF700C053E8 /* TweetCell.swift */; };
+		5DEB44E6253D2F9500BEFE16 /* TweetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB44E5253D2F9500BEFE16 /* TweetVC.swift */; };
 		6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCF52521DF07FC00451C03 /* AppDelegate.swift */; };
 		6EBCF52B21DF07FC00451C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBCF52921DF07FC00451C03 /* Main.storyboard */; };
 		6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */; };
@@ -24,6 +25,7 @@
 		5DE2769D25314C5100C053E8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		5DE2769F25315AC200C053E8 /* HomeTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTV.swift; sourceTree = "<group>"; };
 		5DE276A125316AF700C053E8 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		5DEB44E5253D2F9500BEFE16 /* TweetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetVC.swift; sourceTree = "<group>"; };
 		6EBCF52221DF07FC00451C03 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBCF52521DF07FC00451C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EBCF52A21DF07FC00451C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				5DE2769D25314C5100C053E8 /* LoginVC.swift */,
 				5DE2769F25315AC200C053E8 /* HomeTV.swift */,
 				5DE276A125316AF700C053E8 /* TweetCell.swift */,
+				5DEB44E5253D2F9500BEFE16 /* TweetVC.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */,
 				5DE276A225316AF700C053E8 /* TweetCell.swift in Sources */,
 				5DE276A025315AC200C053E8 /* HomeTV.swift in Sources */,
+				5DEB44E6253D2F9500BEFE16 /* TweetVC.swift in Sources */,
 				5DE2769E25314C5100C053E8 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

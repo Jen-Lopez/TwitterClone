@@ -14,7 +14,6 @@ class HomeTV: UITableViewController {
     var numOfTweets : Int!
     
     func loadTweets(){
-        
         let reqURL = "https://api.twitter.com/1.1/statuses/home_timeline.json"
         let param = ["count": 10]
         TwitterAPICaller.client?.getDictionariesRequest(url: reqURL, parameters: param, success: { (tweets : [NSDictionary]) in
@@ -48,11 +47,19 @@ class HomeTV: UITableViewController {
             cell.photo.image = UIImage(data: imageData)
         }
         
+        cell.setFav(tweets[indexPath.row]["favorited"] as! Bool)
+        cell.tweetID = tweets[indexPath.row]["id"] as! Int
+        cell.setRetweet(tweets[indexPath.row]["retweeted"] as! Bool)
+//        cell.retweeted = tweets[indexPath.row]["retweeted"] as! Bool
         return cell
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         loadTweets()
     }
 
